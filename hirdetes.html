@@ -4,7 +4,7 @@
     <title>Discord bot Hirdető</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="main.css" media="all">
+	<link rel="stylesheet" href="style.css" media="all">
 	<link rel="icon" type="image/png" href="pics/favicon.png">
 </head>
 <body>
@@ -45,23 +45,23 @@
 			
 					  <div>
 						<label for="email">Email:</label>
-						<input type="email" id="email">
+						<input type="text" id="email">
 					  </div>
 
 					  <div>
 						<label for="botname">Bot név</label>
-						<input type="botname" id="botname">
+						<input type="text" id="botname">
 					  </div>
 					
 					  <div>
 						<label for="meghivo">Bot meghívója:</label>
-						<input type="meghivo" id="meghivo">
+						<input type="text" id="meghivo">
 					  </div>
 					  <div>
 						<label for="leiras">Bot leírás:</label>				
-						<textarea id="leiras" rows="4" cols="60"></textarea>
+						<textarea type="text" id="leiras" rows="4" cols="51" style="margin: 0px; width: 300; height: 375 px;"></textarea>
 					  </div>
-			
+
 					  <div>
 						<label for="categories">Bot kategória:</label>
 						<select id="role">
@@ -76,9 +76,13 @@
 							<option value="other">Egyéb</option>
 						</select>
 					  </div>
-			
-					  <input class="button" type="submit" value="Küldés">
+
+					 <input class="button" type="submit" value="Küldés">
+
 					</form>
+
+					<ul id="userlist"></ul>
+					<script src="demo.js"></script>
 				</section>
 			</main>
 		</div>
@@ -87,6 +91,5 @@
 			</div>
 		</footer>
 	</div>
-	<script src="demo.js"></script>
 </body>
 </html>
