@@ -1,2 +1,2 @@
-# Webxd
-Senki ne nézegesse mert tele van hibával Xd
+# Web
+Befejezetlen munkáim egyike UwU
