@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+body {
+	background: url('../pics/bg-body.gif') fixed;
+	color: black;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif
+	
+}
+* {
+	box-sizing: border-box
+}
+header {
+	background: url('../pics/bg-header.png');
+	color: white;
+	font-size: 80px;
+	font-weight: 700;
+	padding: 80px 60px;
+	text-shadow: 0 0 20px rgba(0,0,0,.8)
+}
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto
+}
+.content {
+	background: #333030
+}
+.content::after,
+footer::after {
+	content: "";
+	clear: both;
+	display: table
+}
+nav {
+	width: 25%;
+	float: left
+}
+nav ul {
+	margin: 0;
+	padding: 30px;
+	list-style: none
+}
+nav ul li {
+	border-bottom: 1px dashed rgba(255,255,255,2)
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 15px 0;
+	display: block
+}
+nav a:hover {
+	padding: 15px;
+	background: rgba(255,255,255,.1)
+}
+
+main {
+	width: 75%;
+	background: white;
+	float: left;
+	padding: 30px
+}
+main p {
+	line-height: 23px
+}
+.float-left {
+	float: left;
+	margin: 0 20px 20px 0
+}
+.float-right {
+	float: right;
+	margin: 0 0 20px 20px
+}
+
+
+footer {
+	padding: 20px 0
+}
+footer a {
+	color: black
+}
+footer .left {
+	float: left
+}
+footer .right {
+	float: right
+}
+h1 {
+	margin-top: 0
+}
+h1 span {
+	font-size: 50px;
+	background: #8B9DFF;
+	color: white;
+	-webkit-box-decoration-break: clone;
+	-o-box-decoration-break: clone;
+	box-decoration-break: clone;
+	border-left: 10px solid #8B9DFF;
+	border-right: 10px solid #8B9DFF;
+	border-bottom: 7px solid #8B9DFF;
+	line-height: 75px
+}
+.container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 50px 30px;
+}
+
+#user-form {
+    padding: 30px;
+    background: #f4f4f4;
+}
+
+#user-form h1 {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#user-form label {
+    display: block;
+}
+
+#user-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#user-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.button {    
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #1e1e1e;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.button:hover {
+    background: #444;
+}
+
+.bg-sotet {
+    background: #333;
+    color: #fff;
+}
+
+.error {
+    background: #f00;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
